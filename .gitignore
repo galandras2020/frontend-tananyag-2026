@@ -1,0 +1,14 @@
+# Külső függőségek letiltása (Ezt SOHA nem töltjük fel)
+node_modules/
+
+# A kész, lefordított weboldal mappája (amit a szerverre töltenénk)
+dist/
+build/
+
+# Lokális környezeti változók (pl. titkos API kulcsok, jelszavak)
+.env
+.env.local
+
+# Operációs rendszer által generált felesleges fájlok
+.DS_Store
+Thumbs.db
